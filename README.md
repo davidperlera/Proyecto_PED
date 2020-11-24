@@ -3,6 +3,7 @@
 Lista de Integrantes:
 
 Andres Felipe Cardona Duarte 00037820
+
 David Misael Perlera Ramírez 00165220
 
 Descripcion del proyecto: El proyecto consiste en la creacion de una App en la cual hay 3 locales 
