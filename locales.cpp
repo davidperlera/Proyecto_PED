@@ -52,25 +52,48 @@ do{
     cin>>opcion; cin.ignore();
      
      switch(opcion){
-
          case 1: Agregar_clientes(Local1); break;
          case 2: Agregar_clientes2(Local2); break;
          case 3: Agregar_clientes3(Local3); break;
-         case 4: if(!Local1.empty()){mostrar_clientes(Local1);}else{cout<<endl<<endl<<"La cola esta vacia"<<endl<<endl;} break;
-         case 5: if(!Local2.empty()){mostrar_clientes(Local2);}else{cout<<endl<<endl<<"La cola esta vacia"<<endl<<endl;} break;
-         case 6: if(!Local3.empty()){mostrar_clientes(Local3);}else{cout<<endl<<endl<<"La cola esta vacia"<<endl<<endl;} break;
-         case 7: if(!Local1.empty()){cout<<"El monto de venta es: "<<monto(Local1)<<endl<<endl;}
-         else{cout<<endl<<endl<<"No hubo ventas en el local la cola esta vacia"<<endl<<endl;}  break;
-         case 8: if(!Local2.empty()){cout<<"El monto de venta es: "<<monto(Local2)<<endl<<endl;}
-         else{cout<<endl<<endl<<"No hubo ventas en el local la cola esta vacia"<<endl<<endl;}  break;
-         case 9:if(!Local3.empty()){cout<<"El monto de venta es: "<<monto(Local3)<<endl<<endl;}
-         else{cout<<endl<<endl<<"No hubo ventas en el local la cola esta vacia"<<endl<<endl;}  break;
+         case 4:
+                 if(!Local1.empty()){
+                   mostrar_clientes(Local1);}
+                     else{cout<<endl<<endl<<"La cola esta vacia"<<endl<<endl;}
+                  break;
+         case 5:
+                 if(!Local2.empty()){
+                    mostrar_clientes(Local2);}
+                     else{cout<<endl<<endl<<"La cola esta vacia"<<endl<<endl;}
+                 break;
+         case 6:
+                 if(!Local3.empty()){
+                    mostrar_clientes(Local3);}
+                     else{
+                         cout<<endl<<endl<<"La cola esta vacia"<<endl<<endl;}
+                 break;
+         case 7: 
+                 if(!Local1.empty()){
+                    cout<<"El monto de venta es: "<<monto(Local1)<<endl<<endl;}
+                       else{
+                           cout<<endl<<endl<<"No hubo ventas en el local la cola esta vacia"<<endl<<endl;}
+                 break;
+         case 8:
+                 if(!Local2.empty()){
+                    cout<<"El monto de venta es: "<<monto(Local2)<<endl<<endl;}
+                     else{
+                         cout<<endl<<endl<<"No hubo ventas en el local la cola esta vacia"<<endl<<endl;} 
+                 break;
+         case 9:
+                 if(!Local3.empty()){
+                     cout<<"El monto de venta es: "<<monto(Local3)<<endl<<endl;}
+                      else{
+                          cout<<endl<<endl<<"No hubo ventas en el local la cola esta vacia"<<endl<<endl;} 
+                 break;
          case 10: Mayor_venta(Local1,Local2,Local3); break;
          case 11: cout<<endl<<endl<<"Fin del programa"<<endl<<endl;continuar=false; break;
          default: cout<<"Opci"<<char(162)<<"n no v"<<char(160)<<"lida"<<endl;
      }
 }while(continuar);
-
     
     return 0;}
 
