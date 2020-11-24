@@ -3,7 +3,6 @@
 Lista de Integrantes:
 
 Andres Felipe Cardona Duarte 00037820
-
 David Misael Perlera Ramírez 00165220
 
 Descripcion del proyecto: El proyecto consiste en la creacion de una App en la cual hay 3 locales 
@@ -12,7 +11,6 @@ a la cola de cada local y que cada cliente escoja los productos que quiere, tamb
 cola de clientes de cada local y calcular las ganancias que han tenido y mostrar el local que tiene
 más ventas.
 
-Tipos de estructuras utilizadas:
+Tipos de estructuras utilizadas:Colas y vectores
 
-colas:<queue>
-vectores:<vector>
+
