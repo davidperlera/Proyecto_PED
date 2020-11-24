@@ -8,7 +8,7 @@ David Misael Perlera Ramírez 00165220
 Descripcion del proyecto: El proyecto consiste en la creacion de una App en la cual hay 3 locales 
 cada local consta de 9 productos y una cola de clientes, la App tiene como funcion poder agregar clientes
 a la cola de cada local y que cada cliente escoja los productos que quiere, tambien puede mostrar la
-cola de clientes de cada local y calcular las ganancias que han tenido y mostrar el local que tiene
+cola de clientes de cada local,calcular las ganancias que han tenido y mostrar el local que tiene
 más ventas.
 
 Tipos de estructuras utilizadas:Colas y vectores
